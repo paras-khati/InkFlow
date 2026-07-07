@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+backend/inkflow.db
+backend/inkflow.db-shm
+backend/inkflow.db-wal
+backend/pomodoro.db
