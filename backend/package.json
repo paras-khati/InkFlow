@@ -1,0 +1,25 @@
+{
+  "name": "inkflow-backend",
+  "version": "1.0.0",
+  "description": "InkFlow backend API and real-time collaboration server",
+  "author": "Paras Khati",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paras-khati/InkFlow.git"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.1"
+  }
+}
