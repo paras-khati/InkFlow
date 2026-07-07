@@ -14,7 +14,3 @@ services:
         value: /var/data
       - key: FRONTEND_ORIGIN
         sync: false
-    disk:
-      name: inkflow-data
-      mountPath: /var/data
-      sizeGB: 1
