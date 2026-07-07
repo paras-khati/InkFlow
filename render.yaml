@@ -9,7 +9,7 @@ services:
     healthCheckPath: /api/health
     envVars:
       - key: NODE_VERSION
-        value: "20"
+        value: "22"
       - key: DATA_DIR
         value: /var/data
       - key: FRONTEND_ORIGIN

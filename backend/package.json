@@ -10,7 +10,7 @@
   },
   "main": "server.js",
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "scripts": {
     "dev": "node server.js",
